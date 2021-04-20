@@ -1,0 +1,28 @@
+{
+  "name": "ciheroku-dleon",
+  "version": "1.0.0",
+  "description": "Proyecto Cristian",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buimal/CIcodigo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Buimal/CIcodigo/issues"
+  },
+  "homepage": "https://github.com/Buimal/CIcodigo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
+  }
+}
