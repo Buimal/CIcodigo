@@ -30,7 +30,7 @@ app.post('/api/add', (req, res) => {
 });
 // app entry point
 app.get('/', (req, res) => res.status(200).send({
-  message: 'Welcome to our glorious app - Sebastian Reyes',
+  message: 'Cambio david d.',
 }));
 // Setup a default catch-all route that sends back a welcome message in JSON format.
 app.get('*', (req, res) => res.status(200).send({
